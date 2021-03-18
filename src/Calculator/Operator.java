@@ -4,7 +4,7 @@ public class Operator extends Token {
 
     private Operation operation;
 
-    // TODO: getOperation or getOperator
+
     public Operation getOperation(){
         return operation;
     }

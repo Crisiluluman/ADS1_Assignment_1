@@ -13,7 +13,6 @@ public class Operand extends Token{
         return value;
     }
 
-    // TODO: Må vi det?
     public void setValue(int value) {
         this.value = value;
     }

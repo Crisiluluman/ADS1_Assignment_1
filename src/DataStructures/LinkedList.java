@@ -6,10 +6,13 @@ public class LinkedList<T> implements List<T>{
 
     @Override
     public boolean isEmpty() {
-        //TODO: Data i head er tom?
         return size == 0;
     }
 
+  /*  public LinkedList(Node<T> head) {
+        this.head = head;
+    }
+*/
     @Override
     public int size() {
         return size;
